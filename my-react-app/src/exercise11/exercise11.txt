@@ -1,0 +1,24 @@
+Exercise 11: Benefits and Limitations of HOCs
+
+Description: 
+
+Discuss the use cases and limitations of Higher-Order Components.
+
+Answer:
+Use Cases of Higher-Order Components (HOCs):
+Code Reusability:
+HOCs allow you to extract and reuse common functionality across multiple components without repeating code.
+
+Cross-Cutting Concerns:
+Ideal for handling concerns like logging, authentication, authorization, or data fetching in a consistent and centralized manner
+
+Limitations of Higher-Order Components:
+Wrapper Hell:
+Using multiple HOCs can result in a deeply nested and hard-to-read component structure, making debugging more difficult.
+
+Props Collisions:
+HOCs and wrapped components may use the same prop names, leading to conflicts unless managed carefully.
+
+Less Intuitive Compared to Hooks:
+HOCs can be harder to follow, especially for developers new to React. Hooks offer a more straightforward and modern approach to handling shared logic.
+

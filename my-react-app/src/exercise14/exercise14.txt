@@ -1,0 +1,28 @@
+
+Exercise 14: Diagnosing Performance Issues
+
+Description: 
+
+Explain how to use the React Profiler to identify and optimize slow components.
+
+
+
+
+Answer:
+The React Profiler, available in React DevTools, is a powerful tool for identifying and optimizing performance issues in React applications.
+
+By recording a profiling session, you can:
+
+Track Component Renders:
+Identify which components rendered during a specific interaction or state change, including unnecessary re-renders.
+
+Measure Render Duration:
+See how long each component took to render, helping pinpoint slow or inefficient components.
+
+Visualize with Flame Charts and Ranked Charts:
+Use visual charts to understand the render hierarchy and identify which parts of the UI are the most performance-intensive.
+
+Analyze Commit Phases:
+Review each render cycle (commit) to understand how your app updates over time.
+
+This information allows developers to make data-driven optimizations, such as memoization, code splitting, or avoiding unnecessary re-renders.

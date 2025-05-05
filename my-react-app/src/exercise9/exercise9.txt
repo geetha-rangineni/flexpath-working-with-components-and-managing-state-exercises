@@ -1,0 +1,21 @@
+Exercise 9: Managing Component Lifecycle
+
+Description: 
+
+Explain how `useEffect` manages the lifecycle of functional components.
+
+
+Answer:
+
+The useEffect hook is used in functional components to handle side effects — such as data fetching, event listeners, or updating the DOM.
+
+It effectively replaces lifecycle methods in class components like:
+
+componentDidMount – for running code once after the component mounts.
+
+componentDidUpdate – for responding to changes in dependencies.
+
+componentWillUnmount – for cleaning up resources when the component unmounts.
+
+useEffect runs after the component has rendered, and you can control when it re-runs by providing a dependency array.
+It can also return a cleanup function, which React will run either when the component unmounts or before the effect runs again.

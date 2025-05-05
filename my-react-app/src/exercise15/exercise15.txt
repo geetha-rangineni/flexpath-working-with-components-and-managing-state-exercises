@@ -1,0 +1,25 @@
+
+Exercise 15: Integrating Next.js
+
+Description: 
+
+Briefly explain how to integrate Next.js for server-side rendering.
+
+
+Answer:
+Answer:
+Next.js is a React framework that simplifies server-side rendering (SSR) and static site generation (SSG), improving performance and SEO.
+
+Key features include:
+
+File-based Routing: Pages are automatically routed based on the file structure inside the pages directory.
+
+Server-Side Rendering (SSR): Use getServerSideProps to fetch data at request time and render pages on the server.
+
+Static Site Generation (SSG): Use getStaticProps to pre-render pages at build time for faster load speeds.
+
+Automatic Code Splitting: Loads only the necessary JavaScript for each page to optimize performance.
+
+Built-in API Routes: Create backend endpoints directly inside the pages/api directory.
+
+To integrate Next.js, start a project using npx create-next-app, define your pages in the pages directory, and use Next.js data-fetching methods to control rendering behavior.

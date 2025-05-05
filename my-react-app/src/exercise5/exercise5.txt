@@ -1,0 +1,9 @@
+Exercise 5: Handling State Changes
+
+Description: 
+
+Explain how state changes in the `Counter` component cause re-rendering.
+
+
+Answer:
+In React, state is managed using the useState hook. When state changes, React automatically re-renders the component that’s how your UI stays in sync with the data.
